@@ -1,3 +1,4 @@
+// adjust scores 
 var friendsArray = [
     {
         name: "Jim",
