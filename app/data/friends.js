@@ -1,4 +1,4 @@
-// adjust scores 
+// adjust scores & pictures
 var friendsData = [
     {
         name: "Jim",
