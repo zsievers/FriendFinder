@@ -1,46 +1,46 @@
 // adjust scores 
-var friendsArray = [
+var friendsData = [
     {
         name: "Jim",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-        scores: [5,4,1,2,4,2,1,4,2,1]
+        photo: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goodhousekeeping.com%2Flife%2Fpets%2Fg5138%2Fbest-family-dogs%2F&psig=AOvVaw0tzdsAE3lkXWpDfB86iX9S&ust=1588438108540000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLCWu5uPk-kCFQAAAAAdAAAAABAD",
+        scores: ["5","4","1","2","4","2","1","4","2","1"]
     },
     {
         name: "Joe",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-        scores: [5,4,1,2,4,2,1,4,2,1]
+        photo: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goodhousekeeping.com%2Flife%2Fpets%2Fg5138%2Fbest-family-dogs%2F&psig=AOvVaw0tzdsAE3lkXWpDfB86iX9S&ust=1588438108540000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLCWu5uPk-kCFQAAAAAdAAAAABAD",
+        scores: ["5","4","1","2","4","2","1","4","2","1"]
     },
     {
         name: "Evan",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-        scores: [5,4,1,2,4,2,1,4,2,1]
+        photo: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goodhousekeeping.com%2Flife%2Fpets%2Fg5138%2Fbest-family-dogs%2F&psig=AOvVaw0tzdsAE3lkXWpDfB86iX9S&ust=1588438108540000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLCWu5uPk-kCFQAAAAAdAAAAABAD",
+        scores: ["5","4","1","2","4","2","1","4","2","1"]
     },
     {
         name: "Blake",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-        scores: [5,4,1,2,4,2,1,4,2,1]
+        photo: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goodhousekeeping.com%2Flife%2Fpets%2Fg5138%2Fbest-family-dogs%2F&psig=AOvVaw0tzdsAE3lkXWpDfB86iX9S&ust=1588438108540000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLCWu5uPk-kCFQAAAAAdAAAAABAD",
+        scores: ["5","4","1","2","4","2","1","4","2","1"]
     },
     {
         name: "Kyle",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-        scores: [5,4,1,2,4,2,1,4,2,1]
+        photo: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goodhousekeeping.com%2Flife%2Fpets%2Fg5138%2Fbest-family-dogs%2F&psig=AOvVaw0tzdsAE3lkXWpDfB86iX9S&ust=1588438108540000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLCWu5uPk-kCFQAAAAAdAAAAABAD",
+        scores: ["5","4","1","2","4","2","1","4","2","1"]
     },
     {
         name: "Preston",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-        scores: [5,4,1,2,4,2,1,4,2,1]
+        photo: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goodhousekeeping.com%2Flife%2Fpets%2Fg5138%2Fbest-family-dogs%2F&psig=AOvVaw0tzdsAE3lkXWpDfB86iX9S&ust=1588438108540000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLCWu5uPk-kCFQAAAAAdAAAAABAD",
+        scores: ["5","4","1","2","4","2","1","4","2","1"]
     },
     {
         name: "Tee",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-        scores: [5,4,1,2,4,2,1,4,2,1]
+        photo: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goodhousekeeping.com%2Flife%2Fpets%2Fg5138%2Fbest-family-dogs%2F&psig=AOvVaw0tzdsAE3lkXWpDfB86iX9S&ust=1588438108540000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLCWu5uPk-kCFQAAAAAdAAAAABAD",
+        scores: ["5","4","1","2","4","2","1","4","2","1"]
     },
     {
         name: "Andy",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-        scores: [5,4,1,2,4,2,1,4,2,1]
+        photo: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goodhousekeeping.com%2Flife%2Fpets%2Fg5138%2Fbest-family-dogs%2F&psig=AOvVaw0tzdsAE3lkXWpDfB86iX9S&ust=1588438108540000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLCWu5uPk-kCFQAAAAAdAAAAABAD",
+        scores: ["5","4","1","2","4","2","1","4","2","1"]
     }
 ];
 
-module.exports = friendsArray;
+module.exports = friendsData;
   
