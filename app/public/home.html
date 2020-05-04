@@ -4,29 +4,53 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!-- reset stylesheet -->
+<link rel="stylesheet" href="./css/reset.css">
+<!-- bootstrap stylesheet -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<!-- my stylesheet -->
+<link rel="stylesheet" href="./css/home.css">
+
 <title>Doggy Friend Finder</title>
 </head>
 <body>
 
     <div class="container">
-
-        <div class="jumbotron">
-          <h1 class="text-center"><span class="fa fa-paw"></span> Doggy Friend Fider</h1>
+      <!-- HEADER -->
+        <div class="header">
+          <h1 class="text-center"><span class="fa fa-paw"></span> Doggy Friend Finder</h1>
           <hr>
-          <h2 class="text-left">Is your dog tough to get along with?<br>
-             Do they have social anxiety?<br>
-             Are you new to the area, and don't feel comfortable with dog parks?<br><br>
-             If so, you've come to the right place. Doggy Friend Finder will match your dog characteristics with others in the area. Click the button below to begin.              
-          </h2>
-          <br>
-    
-          <div class="text-center">
-            <a href="/survey"><button class="btn btn-lg btn-success"><span class="fa fa-clipboard-list"></span> Begin Questionnaire</button></a>
+        </div>
+
+        <!-- IMAGE CARDS -->
+        <div class="card-group">
+          <div class="card">
+            <img class="dogImg" src="https://i.imgur.com/zw3LC3P.png" alt="Dog Friends" height="500px">
+          </div>
+          <div class="card">
+            <img class="dogImg" src="https://i.pinimg.com/originals/d8/f9/b4/d8f9b4f82113d26618720cab5b29fbbb.jpg" alt="Dogs" height="500px">
           </div>
         </div>
 
+        <!-- INFO CARD -->
+        <div class="card">
+          <h2 class="text-center">Is your dog tough to get along with?<br>
+             Do they have social anxiety?<br>
+             Are you new to the area, and don't feel comfortable with dog parks?<br><br>
+             If so, you've come to the right place. Doggy Friend Finder will match your dog characteristics with others in the area.            
+          </h2>
+          <br>
+           <!-- START SURVEY BTN -->
+           <div class="text-center">
+            <a href="/survey"><button class="btn btn-lg btn-info"><span class="fa fa-clipboard-list"></span> Begin Questionnaire</button></a>
+          </div>
+        </div>
+        </div>
+          
+         
+
+        <!-- FOOTER -->
         <footer class="footer">
             <div class="container">
               <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/zsievers/FriendFinder" target="_blank">GitHub Repo</a>
@@ -35,7 +59,7 @@
         
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
