@@ -3,7 +3,7 @@
 Friend Finder is a friend compatibility application for your dog! Dog parks can be scary, am I right?
 
 <li>Built With: Node.js, Javascript, jQuery, Express,CSS and Bootstrap</li>
-<li>Find your dog a new best friend<a href="https://limitless-cove-86829.herokuapp.com/">here</a></li>
+<li>Find your dog a new best friend <a href="https://limitless-cove-86829.herokuapp.com/">here</a></li>
 
 # Description
 
