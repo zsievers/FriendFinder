@@ -28,7 +28,7 @@ module.exports = function(app) {
             };
             scoresArr.push(scoreDiff);
         }   
-            // looping through scoresArr to 
+            // looping through scoresArr 
         for (var i = 0; i <scoresArr.length; i++) {
             if (scoresArr[i] <= scoresArr[bestMatch]) {
                 bestMatch = i;
