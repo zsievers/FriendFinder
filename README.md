@@ -1,14 +1,17 @@
-# FriendFinder
+# Friend Finder
 
-# Friend Finder - Node and Express Servers
+Friend Finder is a friend compatibility application for your dog! Dog parks can be scary, am I right?
 
-### Overview
+<li>Built With: Node.js, Javascript, jQuery, Express,CSS and Bootstrap</li>
+<li>Click link to find your dog a new best friend -> <a href="https://limitless-cove-86829.herokuapp.com/"></li>
 
-In this activity, you'll build a compatibility-based "FriendFinder" application -- basically a dating app. This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
+# Description
 
-You will use Express to handle routing. Make sure you deploy your app to Heroku so other users can fill it out.
+This application will collect information from the user survey and will then compare the user answers against other users answers. It will use the difference to compare and match them with their best match!
 
+# Future Development
 
-### Before You Begin
-link to heroku!
-https://limitless-cove-86829.herokuapp.com/
+<li>Cleaner/Crisper Styling</li>
+<li>Insert Validation Logic</li>
+<li>Creative Form/Modals</li>
+
