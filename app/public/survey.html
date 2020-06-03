@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -19,196 +18,202 @@
     <title>Survey || Zach Sievers</title>
   </head>
   <body>
-    <!-- survey header -->
-    <div class="surveyHeader">
-      <h1>Survey</h1>
-      <hr />
-    </div>
 
     <!-- form -->
-
-    <form role="form">
-      <h2><i>About You:</i></h2>
-      <!-- Name -->
-      <div class="form-group">
-        <label for="name">Name <em>(required)</em></label>
-        <input type="text" class="form-control" id="name" placeholder="Name" />
+    <div class="container">
+      <div class="header">
+        <h1>Survey</h1>
+        <hr />
       </div>
 
-      <!-- Link to Photo -->
-      <div class="form-group">
-        <label for="photo">Link to Photo Image <em>(required)</em></label>
-        <input
-          type="text"
-          class="form-control"
-          id="photo"
-          placeholder="Photo URL"
-        />
-      </div>
-      <hr />
-      <br />
-      <h2>
-        Read each statement and choose the number that accurately depicts your
-        dogs characteristics!
-      </h2>
-      <br />
-      <!-- Question 1 -->
-      <div class="form-group">
-        <h3>#1</h3>
-        <h5>Dog is relaxed when meeting people.</h5>
-        <select class="form-control" id="q1">
-          <option value="0">Select Option</option>
-          <option value="1">1 <em>(Strongly Disagree)</em></option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 <em>(Strongly Agree)</em></option>
-        </select>
+      <form role="form">
+        <h2><i>About You:</i></h2>
+        <!-- Name -->
+        <div class="form-group">
+          <label for="name">Name <em>(required)</em></label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Name"
+          />
+        </div>
+
+        <!-- Link to Photo -->
+        <div class="form-group">
+          <label for="photo">Link to Photo Image <em>(required)</em></label>
+          <input
+            type="text"
+            class="form-control"
+            id="photo"
+            placeholder="Photo URL"
+          />
+        </div>
+        <hr />
         <br />
-      </div>
+        <h2>
+          Read each statement and choose the number that accurately depicts your
+          dogs characteristics!
+        </h2>
+        <br />
+        <!-- Question 1 -->
+        <div class="form-group">
+          <h3>#1</h3>
+          <h5>Dog is relaxed when meeting people.</h5>
+          <select class="form-control" id="q1">
+            <option value="0">Select Option</option>
+            <option value="1">1 <em>(Strongly Disagree)</em></option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 <em>(Strongly Agree)</em></option>
+          </select>
+          <br />
+        </div>
 
-      <!-- Question 2 -->
-      <div class="form-group">
-        <h3>#2:</h3>
-        <h5>Dog behaves aggressively if distrubed or moved when resting.</h5>
-        <select class="form-control" id="q2">
-          <option value="0">Select Option</option>
-          <option value="1">1 <em>(Strongly Disagree)</em></option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 <em>(Strongly Agree)</em></option>
-        </select>
-      </div>
-      <br />
+        <!-- Question 2 -->
+        <div class="form-group">
+          <h3>#2:</h3>
+          <h5>Dog behaves aggressively if distrubed or moved when resting.</h5>
+          <select class="form-control" id="q2">
+            <option value="0">Select Option</option>
+            <option value="1">1 <em>(Strongly Disagree)</em></option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 <em>(Strongly Agree)</em></option>
+          </select>
+        </div>
+        <br />
 
-      <!-- Question 3 -->
-      <div class="form-group">
-        <h3>#3</h3>
-        <h5>Dog is aloof or indifferent towards other dogs.</h5>
-        <select class="form-control" id="q3">
-          <option value="0">Select Option</option>
-          <option value="1">1 <em>(Strongly Disagree)</em></option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 <em>(Strongly Agree)</em></option>
-        </select>
-      </div>
-      <br />
+        <!-- Question 3 -->
+        <div class="form-group">
+          <h3>#3</h3>
+          <h5>Dog is aloof or indifferent towards other dogs.</h5>
+          <select class="form-control" id="q3">
+            <option value="0">Select Option</option>
+            <option value="1">1 <em>(Strongly Disagree)</em></option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 <em>(Strongly Agree)</em></option>
+          </select>
+        </div>
+        <br />
 
-      <!-- Question 4 -->
-      <div class="form-group">
-        <h3>#4</h3>
-        <h5>Dog is destructive.</h5>
-        <select class="form-control" id="q4">
-          <option value="0">Select Option</option>
-          <option value="1">1 <em>(Strongly Disagree)</em></option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 <em>(Strongly Agree)</em></option>
-        </select>
-      </div>
-      <br />
+        <!-- Question 4 -->
+        <div class="form-group">
+          <h3>#4</h3>
+          <h5>Dog is destructive.</h5>
+          <select class="form-control" id="q4">
+            <option value="0">Select Option</option>
+            <option value="1">1 <em>(Strongly Disagree)</em></option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 <em>(Strongly Agree)</em></option>
+          </select>
+        </div>
+        <br />
 
-      <!-- Question 5 -->
-      <div class="form-group">
-        <h3>#5</h3>
-        <h5>Dog behaves aggressively towards other dogs.</h5>
-        <select class="form-control" id="q5">
-          <option value="0">Select Option</option>
-          <option value="1">1 <em>(Strongly Disagree)</em></option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 <em>(Strongly Agree)</em></option>
-        </select>
-      </div>
-      <br />
+        <!-- Question 5 -->
+        <div class="form-group">
+          <h3>#5</h3>
+          <h5>Dog behaves aggressively towards other dogs.</h5>
+          <select class="form-control" id="q5">
+            <option value="0">Select Option</option>
+            <option value="1">1 <em>(Strongly Disagree)</em></option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 <em>(Strongly Agree)</em></option>
+          </select>
+        </div>
+        <br />
 
-      <!-- Question 6 -->
-      <div class="form-group">
-        <h3>#6</h3>
-        <h5>Dog loves to be praised.</h5>
-        <select class="form-control" id="q6">
-          <option value="0">Select Option</option>
-          <option value="1">1 <em>(Strongly Disagree)</em></option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 <em>(Strongly Agree)</em></option>
-        </select>
-      </div>
-      <br />
+        <!-- Question 6 -->
+        <div class="form-group">
+          <h3>#6</h3>
+          <h5>Dog loves to be praised.</h5>
+          <select class="form-control" id="q6">
+            <option value="0">Select Option</option>
+            <option value="1">1 <em>(Strongly Disagree)</em></option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 <em>(Strongly Agree)</em></option>
+          </select>
+        </div>
+        <br />
 
-      <!-- Question 7 -->
-      <div class="form-group">
-        <h3>#7</h3>
-        <h5>Dog is anxious.</h5>
-        <select class="form-control" id="q7">
-          <option value="0">Select Option</option>
-          <option value="1">1 <em>(Strongly Disagree)</em></option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 <em>(Strongly Agree)</em></option>
-        </select>
-      </div>
-      <br />
+        <!-- Question 7 -->
+        <div class="form-group">
+          <h3>#7</h3>
+          <h5>Dog is anxious.</h5>
+          <select class="form-control" id="q7">
+            <option value="0">Select Option</option>
+            <option value="1">1 <em>(Strongly Disagree)</em></option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 <em>(Strongly Agree)</em></option>
+          </select>
+        </div>
+        <br />
 
-      <!-- Question 8 -->
-      <div class="form-group">
-        <h3>#8</h3>
-        <h5>Dog is dominant over other dogs.</h5>
-        <select class="form-control" id="q8">
-          <option value="0">Select Option</option>
-          <option value="1">1 <em>(Strongly Disagree)</em></option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 <em>(Strongly Agree)</em></option>
-        </select>
-      </div>
-      <br />
+        <!-- Question 8 -->
+        <div class="form-group">
+          <h3>#8</h3>
+          <h5>Dog is dominant over other dogs.</h5>
+          <select class="form-control" id="q8">
+            <option value="0">Select Option</option>
+            <option value="1">1 <em>(Strongly Disagree)</em></option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 <em>(Strongly Agree)</em></option>
+          </select>
+        </div>
+        <br />
 
-      <!-- Question  9 -->
-      <div class="form-group">
-        <h3>#9</h3>
-        <h5>Dog gets bored in play easily.</h5>
-        <select class="form-control" id="q9">
-          <option value="0">Select Option</option>
-          <option value="1">1 <em>(Strongly Disagree)</em></option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 <em>(Strongly Agree)</em></option>
-        </select>
-      </div>
-      <br />
+        <!-- Question  9 -->
+        <div class="form-group">
+          <h3>#9</h3>
+          <h5>Dog gets bored in play easily.</h5>
+          <select class="form-control" id="q9">
+            <option value="0">Select Option</option>
+            <option value="1">1 <em>(Strongly Disagree)</em></option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 <em>(Strongly Agree)</em></option>
+          </select>
+        </div>
+        <br />
 
-      <!-- Question 10 -->
-      <div class="form-group">
-        <h3>#10</h3>
-        <h5>Dog is friendly towards unfamiliar people.</h5>
-        <select class="form-control" id="q10">
-          <option value="0">Select Option</option>
-          <option value="1">1 <em>(Strongly Disagree)</em></option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 <em>(Strongly Agree)</em></option>
-        </select>
-      </div>
-      <br />
-      <br />
-      <!-- Submit Button -->
-      <div class="text-center">
-        <button id="submit" type="submit" class="btn btn-info btn-lg">
-          Submit
-        </button>
-      </div>
-    </form>
+        <!-- Question 10 -->
+        <div class="form-group">
+          <h3>#10</h3>
+          <h5>Dog is friendly towards unfamiliar people.</h5>
+          <select class="form-control" id="q10">
+            <option value="0">Select Option</option>
+            <option value="1">1 <em>(Strongly Disagree)</em></option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 <em>(Strongly Agree)</em></option>
+          </select>
+        </div>
+        <br />
+        <br />
+        <!-- Submit Button -->
+        <div class="text-center">
+          <button id="submit" type="submit" class="btn btn-info btn-lg">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
 
     <!-- Modal -->
     <div class="modal fade" id="resultsModal" role="dialog">
