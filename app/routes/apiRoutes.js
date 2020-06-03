@@ -1,3 +1,4 @@
+var path = require("path");
 // LOAD DATA
 // We are linking our routes to a series of "data" sources.
 var friendsData = require("../data/friends");
@@ -20,9 +21,11 @@ module.exports = function(app) {
         for (var i = 0; i < user.scores.legnth; i++) {
             user.scores[i] = parseInt(user.scores[i]);
         }
+        console.log(req.body.scores);
+        
     
         var bestMatch = 0;
-        var minDifference = 30;   
+        var minDifference = 40;   
         
         for (var i = 0; i < friendsData.length; i++){
             var totalDiff = 0;
